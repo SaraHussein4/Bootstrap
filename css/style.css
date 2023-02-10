@@ -1,0 +1,138 @@
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+/* .parent
+{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+} */
+h2
+{
+    display: inline;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: rgb(85, 84, 84);
+}
+.title
+{
+   
+    display: inline;
+   bottom: 40px;
+    position: relative;
+}
+.search ,.icons
+{
+    position: relative;
+    display: inline;
+    bottom: 45px;
+}
+input
+{
+    width: 450px;
+    height: 40px;
+    border: 1px solid #439A97;
+    margin-left: 5px;
+}
+.icons
+{
+    font-size: 30px;
+   margin-left: 60px;  
+}
+i 
+{
+    margin-left: 10px;
+    color: #439A97;
+}
+h3
+{
+    font-size: 35px;
+    color: #439A97;
+}
+.p1
+{
+    margin-top: -36px;
+    font-size: 20px;
+    color: rgb(85, 84, 84);
+}
+.parent2 
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(1,350px);
+    grid-column-gap: 10px;
+}
+.div1
+{
+  box-shadow: 2px 2px 20px 2px #439A97 ;
+  cursor: pointer;
+}
+.div2
+{
+    box-shadow: 2px 2px 20px 2px #439A97 ; 
+    cursor: pointer;  
+}
+.div3
+{
+    box-shadow: 2px 2px 20px 2px #439A97 ;
+    cursor: pointer;
+}
+.div4
+{
+    box-shadow: 2px 2px 20px 2px #439A97 ;
+    cursor: pointer;
+}
+.div5
+{
+    box-shadow: 2px 2px 20px 2px #439A97 ;
+    cursor: pointer;
+}
+.div6
+{
+    box-shadow: 2px 2px 20px 2px #439A97 ;
+    cursor: pointer;
+}
+.pa
+{
+    height: 40px;
+}
+.par
+{
+ font-size: 17px;
+ padding-left: 3px;
+ color:  #439A97 ;
+ font-weight: bold;
+}
+.par2 
+{
+    padding-left: 3px;
+    color: rgb(175, 58, 58);
+    font-size: 20px;
+}
+#btn1
+{
+    border: 1px solid #439A97;
+    background-color: #439A97;
+    color: white;
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    font-size: 19px;
+    border-radius: 10px;
+    
+}
+#totalprice 
+{
+   
+    width: 200px;
+    /* height: px; */
+    position: relative;
+    left: 200px;
+    top: -28px;
+    font-size: 22px;
+    text-align: center;
+    color: #439A97;
+    text-shadow: 4px 4px 12px black;
+   
+}
