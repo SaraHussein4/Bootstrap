@@ -22,3 +22,8 @@ btn1.onclick = function () {
         document.getElementById("totalprice").innerHTML= "Total Price is"+" /"+"$"+totalPrice
 
      }
+     $(document).ready(function()
+     {
+        $('[data-toggle="tooltip"]'.tooltip())
+     }
+     )

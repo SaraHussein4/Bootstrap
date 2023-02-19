@@ -1,138 +1,96 @@
-.container
-{
-    width: 80%;
-    margin: auto;
+*{
+    scroll-behavior: smooth;
 }
-/* .parent
+.navbar-text
 {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-} */
-h2
+    border-right: 1px solid white; 
+   font-size: 22px;
+   font-weight: bold;
+ transition: .5s;
+ cursor: pointer;
+}
+.navbar-text:hover
 {
-    display: inline;
-    font-size: 35px;
-    font-family: sans-serif;
-    color: rgb(85, 84, 84);
+    text-shadow: 2px -2px 14px rgb(239, 233, 228);
+}
+.form-control
+{
+    display: block;
+    width: 100%;
+
+} 
+.d-flex
+{
+    margin-left: auto;
+}
+.carousel-inner .carousel-caption{
+    background: rgba(200, 200, 200, 0.3);
+    border-radius: 7px;
+}
+.dropdown-menu
+{
+   
+    background: -webkit-linear-gradient(left, #545352, rgb(23, 22, 22)); 
+}
+.navbar 
+{
+    background: -webkit-linear-gradient(left, #545352, rgb(23, 22, 22)); 
+}
+.btn1
+{
+    background: -webkit-linear-gradient(left, #767675, rgb(43, 43, 42));
+}
+
+.card-text
+{
+    color: rgb(244, 247, 247);
+
+}
+.card
+{
+    background: -webkit-linear-gradient(left, #212121, rgb(81, 80, 80));
+}
+
+.btn3 {
+    color: #444;
+    cursor: pointer;
+    padding: 14px ;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.8s;
+    background: -webkit-linear-gradient(left, #323232, rgb(182, 181, 181));
+  }
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  span
+  {
+    text-align: right;
+  }
+.fixedimg
+{
+    background-image: url(../image/Screenshot\ \(146\).png);
+    height: 250px;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 .title
 {
-   
-    display: inline;
-   bottom: 40px;
-    position: relative;
-}
-.search ,.icons
-{
-    position: relative;
-    display: inline;
-    bottom: 45px;
-}
-input
-{
-    width: 450px;
-    height: 40px;
-    border: 1px solid #439A97;
-    margin-left: 5px;
-}
-.icons
-{
-    font-size: 30px;
-   margin-left: 60px;  
-}
-i 
-{
-    margin-left: 10px;
-    color: #439A97;
-}
-h3
-{
-    font-size: 35px;
-    color: #439A97;
-}
-.p1
-{
-    margin-top: -36px;
-    font-size: 20px;
-    color: rgb(85, 84, 84);
-}
-.parent2 
-{
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(1,350px);
-    grid-column-gap: 10px;
-}
-.div1
-{
-  box-shadow: 2px 2px 20px 2px #439A97 ;
-  cursor: pointer;
-}
-.div2
-{
-    box-shadow: 2px 2px 20px 2px #439A97 ; 
-    cursor: pointer;  
-}
-.div3
-{
-    box-shadow: 2px 2px 20px 2px #439A97 ;
-    cursor: pointer;
-}
-.div4
-{
-    box-shadow: 2px 2px 20px 2px #439A97 ;
-    cursor: pointer;
-}
-.div5
-{
-    box-shadow: 2px 2px 20px 2px #439A97 ;
-    cursor: pointer;
-}
-.div6
-{
-    box-shadow: 2px 2px 20px 2px #439A97 ;
-    cursor: pointer;
-}
-.pa
-{
-    height: 40px;
-}
-.par
-{
- font-size: 17px;
- padding-left: 3px;
- color:  #439A97 ;
- font-weight: bold;
-}
-.par2 
-{
-    padding-left: 3px;
-    color: rgb(175, 58, 58);
-    font-size: 20px;
-}
-#btn1
-{
-    border: 1px solid #439A97;
-    background-color: #439A97;
-    color: white;
-    cursor: pointer;
-    width: 130px;
-    height: 40px;
-    font-size: 19px;
-    border-radius: 10px;
-    
-}
-#totalprice 
-{
-   
-    width: 200px;
-    /* height: px; */
-    position: relative;
-    left: 200px;
-    top: -28px;
-    font-size: 22px;
     text-align: center;
-    color: #439A97;
-    text-shadow: 4px 4px 12px black;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+.img 
+{
+    width: 30px;
+    height: 30px;
    
+}
+.container-fluid
+{
+    background: -webkit-linear-gradient(top,rgb(27, 26, 26),rgb(254, 254, 254),rgb(35, 36, 35));
 }
